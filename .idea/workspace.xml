@@ -1,7 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0a19c49-c0a1-4186-8d8c-c7bba798daa1" name="Default" comment="" />
+    <list default="true" id="c0a19c49-c0a1-4186-8d8c-c7bba798daa1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/css/bootstrap-grid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/css/bootstrap-grid.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/css/bootstrap-grid.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/css/bootstrap-grid.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/css/bootstrap-reboot.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/css/bootstrap-reboot.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/css/bootstrap-reboot.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/css/bootstrap-reboot.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/js/bootstrap.bundle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/js/bootstrap.bundle.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/js/bootstrap.bundle.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/js/bootstrap.bundle.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/js/bootstrap.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/dist/js/bootstrap.min.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/alert.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/alert.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/button.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/button.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/carousel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/carousel.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/collapse.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/collapse.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/dropdown.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/dropdown.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/index.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/modal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/modal.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/popover.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/popover.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/scrollspy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/scrollspy.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/tab.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/tab.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/tooltip.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/tooltip.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/util.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/dist/util.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/src/alert.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/src/button.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/src/carousel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/src/collapse.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/src/dropdown.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/src/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/src/modal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/src/popover.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/src/scrollspy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/src/tab.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/src/tooltip.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/js/src/util.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_alert.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_badge.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_breadcrumb.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_button-group.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_buttons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_card.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_carousel.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_close.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_code.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_custom-forms.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_dropdown.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_forms.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_functions.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_grid.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_images.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_input-group.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_jumbotron.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_list-group.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_media.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_modal.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_nav.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_navbar.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_pagination.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_popover.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_print.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_progress.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_reboot.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_root.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_tables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_tooltip.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_transitions.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_type.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_utilities.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/bootstrap-grid.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/bootstrap-reboot.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/bootstrap.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_alert.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_background-variant.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_badge.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_border-radius.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_box-shadow.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_breakpoints.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_buttons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_caret.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_clearfix.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_float.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_forms.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_gradients.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_grid-framework.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_grid.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_hover.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_image.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_list-group.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_lists.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_nav-divider.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_pagination.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_reset-text.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_resize.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_screen-reader.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_size.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_table-row.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_text-emphasis.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_text-hide.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_text-truncate.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_transition.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/mixins/_visibility.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/utilities/_align.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/utilities/_background.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/utilities/_borders.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/utilities/_clearfix.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/utilities/_display.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/utilities/_embed.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/utilities/_flex.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/utilities/_float.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/utilities/_position.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/utilities/_screenreaders.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/utilities/_shadows.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/utilities/_sizing.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/utilities/_spacing.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/utilities/_text.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap/scss/utilities/_visibility.scss" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" afterPath="$PROJECT_DIR$/src/sass/style.scss" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,7 +158,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sass/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,7 +210,6 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/style.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/src/sass/style.scss" />
         <option value="$PROJECT_DIR$/src/sass/base/_typography.scss" />
         <option value="$PROJECT_DIR$/src/sass/components/_header.scss" />
         <option value="$PROJECT_DIR$/src/sass/components/_hero-unit.scss" />
@@ -84,6 +249,7 @@
         <option value="$PROJECT_DIR$/src/portfolio.html" />
         <option value="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap.scss" />
         <option value="$PROJECT_DIR$/src/sass/base/_variables.scss" />
+        <option value="$PROJECT_DIR$/src/sass/style.scss" />
       </list>
     </option>
   </component>
@@ -151,11 +317,12 @@
     <property name="js.buildTools.gulp.gulp_package_dir" value="$USER_HOME$/AppData/Roaming/npm/node_modules/gulp" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JS\Bootstrap4\Kurs2\MojProjekt\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JS\Bootstrap4\Kurs2\MojProjekt" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JS\Bootstrap4\Kurs2\git\Bootstrap-4-Page\src" />
+      <recent name="D:\JS\Bootstrap4\Kurs2\MojProjekt\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -196,23 +363,24 @@
       <workItem from="1523873566383" duration="38695000" />
       <workItem from="1524125390715" duration="6557000" />
       <workItem from="1524140256127" duration="131000" />
+      <workItem from="1524140432573" duration="454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45383000" />
+    <option name="totallyTimeSpent" value="45837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.203125" sideWeight="0.50617284" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.203125" sideWeight="0.50617284" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.203125" sideWeight="0.49382716" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.203125" sideWeight="0.50617284" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.203125" sideWeight="0.50617284" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -260,7 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -289,7 +456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -317,8 +483,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_breakpoints.scss" />
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/scss/_jumbotron.scss" />
+    <entry file="file://$PROJECT_DIR$/src/bootstrap/scss/mixins/_breakpoints.scss" />
+    <entry file="file://$PROJECT_DIR$/src/bootstrap/scss/_jumbotron.scss" />
     <entry file="file://$PROJECT_DIR$/src/sass/components/_hero-unit.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -445,7 +611,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/scss/_variables.scss" />
+    <entry file="file://$PROJECT_DIR$/src/bootstrap/scss/_variables.scss" />
     <entry file="file://$PROJECT_DIR$/src/sass/pages/_post.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -485,13 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -551,7 +710,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap.scss" />
+    <entry file="file://$PROJECT_DIR$/src/bootstrap/scss/bootstrap.scss" />
     <entry file="file://$PROJECT_DIR$/src/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3725">
@@ -564,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,7 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -580,15 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -596,6 +744,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
