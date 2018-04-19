@@ -1,0 +1,38 @@
+.d-services-box{
+  margin-bottom: 40px;
+}
+
+.d-services-box-top{
+  margin-bottom: 1.4rem;
+}
+
+.d-services-box-img{
+  margin: 10px 20px 0 10px;
+  @include d-relative-zindex;
+}
+
+.d-services-box-title{
+  margin-top: 1.75rem;
+}
+
+.d-services-box-heder{
+  font-size: 1.125rem;
+  line-height: 1.2;
+  @include d-font-light-secondary;
+}
+
+.d-service-box-text{
+  line-height: 2;
+}
+
+.d-services-box-shadow{
+  position: absolute;
+  top:0;
+  left: 15px;
+  @include d-size(85px, 85px);
+  background-color: rgba($d-black, .075);
+}
+
+.d-services-box-shadow-active{
+  background-color: rgba($d-accent-color, 1);
+}

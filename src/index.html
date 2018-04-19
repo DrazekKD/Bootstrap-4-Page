@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap 4 Shop</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald&amp;subset=latin-ext" rel="stylesheet">
+     <!--Usuń na końcu--><link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/style.css" >
+</head>
+<body>
+    <!-- Header -->
+    <div class="bg-primary d-header">
+        <div class="container">
+            <ul class="nav flex-column flex-md-row justify-content-lg-end text-uppercase">
+                <li class="nav-item d-header-active">
+                    <a class="nav-link d-header-item-link" href="index.html">Strona główna </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white d-header-item-link" href="portfolio.html">Realizacje</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white d-header-item-link" href="portfolio.html">Usługi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white d-header-item-link" href="post-list.html">Aktualności</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white d-header-item-link" href="shop.html">Sklep</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white d-header-item-link" href="about.html">O nas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white d-header-item-link" href="contact.html">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white d-header-item-link" href="#">
+                        <img src="images/ui/icon-top-search.png" alt="szukaj">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white d-header-item-link" href="#">
+                        <img src="images/ui/icon-top-cart.png" alt="koszyk">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Hero init -->
+    <div class="jumbotron text-center d-hero">
+        <div class="container d-hero-content">
+            <h1 class="text-white d-hero-header text-uppercase">Arhitektura wnętrz</h1>
+            <img class="img-fluid d-hero-img" src="images/design-subheader.png" alt="">
+        </div>
+
+    </div>
+    
+    <!--Section Welcome-->
+    <div class="d-front-page-welcome">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <span class="text-muted text-uppercase d-text-small d-page-intro-subheder">
+                        Lorem ipsum dolor sit.
+                    </span>
+                    <h2 class="text-uppercase d-page-intro-header">Witaj na <span class="text-primary">Naszej stronie</span></h2>
+                    <div class="d-hr d-page-intro-rule"></div>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, maiores, ratione! Beatae commodi cupiditate dolor ducimus eligendi et, eum expedita molestiae praesentium repellendus? Consequuntur cum cumque, laboriosam natus nulla temporibus unde veritatis. Beatae dolore, expedita facere minus quos sint unde! Aperiam cumque incidunt inventore possimus quos repellat? A, blanditiis fugit illo maiores minus nobis pariatur placeat provident quam soluta veritatis.</p>
+                    <div class=" d-none d-lg-flex align-items-center text-uppercase  d-service-group d-text-small">
+                         <div class="d-service-item">
+                            <a href="#">
+                                <img class="d-block mx-auto" src="./images/projekt-lokale-ikona.png" alt="">
+                                <span class="d-block d-service-item-title">Projektowanie wnętrz</span>
+                            </a> 
+                         </div>
+                         <div class="d-service-item">
+                             <a href="#">
+                                 <img class="d-block mx-auto" src="./images/projekt-mebli-ikona.png" alt="">
+                                 <span class="d-block d-service-item-title">Projektowanie mebli</span>
+                             </a>
+                         </div>
+                         <div class="d-service-item">
+                             <a href="#">
+                                 <img class="d-block mx-auto" src="./images/projekt-zielen-ikona.png" alt="">
+                                 <span class="d-block d-service-item-title">Projektowanie zieleni</span>
+                             </a>
+                          </div>
+                          <div class="d-service-item">
+                              <a href="#">
+                                  <img class="d-block mx-auto" src="./images/projekt-wnetrz-ikona.png" alt="">
+                                  <span class="d-block d-service-item-title">Lokale uzytkowe</span>
+                              </a>
+                         </div>
+                    </div>
+            </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="./images/pages/front-page-welcome.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div class="d-front-page-portfolio d-alternate-bg">
+        <div class="container">
+            <div class="d-section-header">
+                <h2 class="text-uppercase">Nasze realizacje</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, maiores?</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="d-portfolio-box fatured">
+                        <div class="d-portfolio-box-img d-portfolio-box-img-overlay">
+                            <img class="img-fluid" src="./images/portfolio/realizacja-1.jpg" alt="">
+                        </div>
+                        <div class="text-white text-center d-portfolio-box-text">
+                            <h3 class="text-uppercase d-portfolio-box-title">Najnowszy projekt</h3>
+                            <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, earum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-none d-xl-block">
+                    <div class="d-flex justify-content-between flex-xl-wrap">
+                        <img class="img-fluid" src="./images/portfolio/realizacje-intro-1.jpg" alt="">
+                        <img class="img-fluid" src="./images/portfolio/realizacje-intro-2.jpg" alt="">
+                        <img class="img-fluid d-front-page-portfolio-last" src="./images/portfolio/realizacje-intro-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Section services-->
+    <div class="d-front-page-services">
+        <div class="container">
+            <div class="d-section-header">
+                <h2 class="text-uppercase">Nasze Usługi</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, maiores?</p>
+            </div>
+            <div class="row">
+                <!-- 1 box-->
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-services-box">
+                        <div class="d-flex d-services-box-top">
+                            <div class="d-services-box-shadow d-services-box-shadow-active"></div>
+                            <div class="d-flex d-services-box-img">
+                                <img src="./images/service-1.jpg" alt="">
+                            </div>
+                            <div class="text-uppercase d-services-box-title">
+                                <span class="d-block d-services-box-heder">Projektowanie wnętzr</span>
+                                <span class="d-block text-muted d-text-small">Lorem ipsum dolor.</span>
+                            </div>
+                        </div>
+                        <div class="d-block d-service-box-text">
+                           <p class="d-text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cupiditate eaque ex facilis illum laboriosam neque numquam quam qui voluptate!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-services-box">
+                        <div class="d-flex d-services-box-top">
+                            <div class="d-services-box-shadow"></div>
+                            <div class="d-flex d-services-box-img">
+                                <img src="./images/service-2.jpg" alt="">
+                            </div>
+                            <div class="text-uppercase d-services-box-title">
+                                <span class="d-block d-services-box-heder">Projektowanie wnętzr</span>
+                                <span class="d-block text-muted d-text-small">Lorem ipsum dolor.</span>
+                            </div>
+                        </div>
+                        <div class="d-block d-service-box-text">
+                           <p class="d-text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cupiditate eaque ex facilis illum laboriosam neque numquam quam qui voluptate!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-services-box">
+                        <div class="d-flex d-services-box-top">
+                            <div class="d-services-box-shadow"></div>
+                            <div class="d-flex d-services-box-img">
+                                <img src="./images/service-3.jpg" alt="">
+                            </div>
+                            <div class="text-uppercase d-services-box-title">
+                                <span class="d-block d-services-box-heder">Projektowanie wnętzr</span>
+                                <span class="d-block text-muted d-text-small">Lorem ipsum dolor.</span>
+                            </div>
+                        </div>
+                        <div class="d-block d-service-box-text">
+                           <p class="d-text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cupiditate eaque ex facilis illum laboriosam neque numquam quam qui voluptate!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-services-box">
+                        <div class="d-flex d-services-box-top">
+                            <div class="d-services-box-shadow"></div>
+                            <div class="d-flex d-services-box-img">
+                                <img src="./images/service-4.jpg" alt="">
+                            </div>
+                            <div class="text-uppercase d-services-box-title">
+                                <span class="d-block d-services-box-heder">Projektowanie wnętzr</span>
+                                <span class="d-block text-muted d-text-small">Lorem ipsum dolor.</span>
+                            </div>
+                        </div>
+                        <div class="d-block d-service-box-text">
+                           <p class="d-text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cupiditate eaque ex facilis illum laboriosam neque numquam quam qui voluptate!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-services-box">
+                        <div class="d-flex d-services-box-top">
+                            <div class="d-services-box-shadow"></div>
+                            <div class="d-flex d-services-box-img">
+                                <img src="./images/service-1.jpg" alt="">
+                            </div>
+                            <div class="text-uppercase d-services-box-title">
+                                <span class="d-block d-services-box-heder">Projektowanie wnętzr</span>
+                                <span class="d-block text-muted d-text-small">Lorem ipsum dolor.</span>
+                            </div>
+                        </div>
+                        <div class="d-block d-service-box-text">
+                           <p class="d-text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cupiditate eaque ex facilis illum laboriosam neque numquam quam qui voluptate!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-services-box">
+                        <div class="d-flex d-services-box-top">
+                            <div class="d-services-box-shadow"></div>
+                            <div class="d-flex d-services-box-img">
+                                <img src="./images/service-2.jpg" alt="">
+                            </div>
+                            <div class="text-uppercase d-services-box-title">
+                                <span class="d-block d-services-box-heder">Projektowanie wnętzr</span>
+                                <span class="d-block text-muted d-text-small">Lorem ipsum dolor.</span>
+                            </div>
+                        </div>
+                        <div class="d-block d-service-box-text">
+                           <p class="d-text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cupiditate eaque ex facilis illum laboriosam neque numquam quam qui voluptate!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog -->
+    <section class="d-front-page-blog d-alternate-bg">
+        <div class="container">
+            <div class="d-section-header">
+                <h2 class="text-uppercase">Aktualności</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, maiores?</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="d-post-box">
+                        <div class="text-center bg-primary d-flex align-items-center  d-post-box-date">
+                            <div class="mx-auto d-post-box-date-body">
+                                <img class="d-none d-md-block mx-auto" src="./images/ui/date-icon.png" alt="">
+                                <spnan class="text-white d-block d-post-box-date-value">23 WRZ 2018</spnan>
+                            </div>
+                        </div>
+                        <div class="d-post-box-body">
+                            <div class="d-post-box-img">
+                                <img src="./images/pages/aktualnosci-front-1.jpg" alt="">        
+                            </div>
+                            <div class="text-white d-post-box-content">
+                                <div class="d-post-box-content-inner">
+                                    <h3 class="text-uppercase d-post-box-title">Lorem dolor.</h3>
+                                    <p class="d-post-box-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur delectus dignissimos doloremque enim, eum illum iure neque nobis officia quidem saepe vel vero. Aliquid!</p>
+                                    <a class="text-primary text-uppercase d-post-box-link" href="#">Zobacz więcej</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-post-box">
+                        <div class="text-center bg-primary d-flex align-items-center  d-post-box-date">
+                            <div class="mx-auto d-post-box-date-body">
+                                <img class="d-none d-md-block mx-auto" src="./images/ui/date-icon.png" alt="">
+                                <spnan class="text-white d-block d-post-box-date-value">11 WRZ 2018</spnan>
+                            </div>
+                        </div>
+                        <div class="d-post-box-body">
+                            <div class="d-post-box-img">
+                                <img src="./images/pages/aktualnosci-front-2.jpg" alt="">
+                            </div>
+                            <div class="text-white d-post-box-content">
+                                <div class="d-post-box-content-inner">
+                                    <h3 class="text-uppercase d-post-box-title">Lorem dolor.</h3>
+                                    <p class="d-post-box-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur delectus dignissimos doloremque enim, eum illum iure neque nobis officia quidem saepe vel vero. Aliquid!</p>
+                                    <a class="text-primary text-uppercase d-post-box-link" href="#">Zobacz więcej</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <div class="d-footer-top">
+        <div class="container d-footer-top-content">
+            <div class="row">
+                <!-- #col 1# -->
+                <div class="col-md-6 col-lg-3 mb-5">
+                    <h4 class="text-uppercase text-white mb-3">O nas</h4>
+                    <p class="d-footer-top-text d-footer-top-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, debitis enim expedita mollitia quos repellat repellendus sapiente suscipit tempore temporibus! Ducimus exercitationem fugit molestias officiis possimus quasi. Dolorem hic, possimus?</p>
+                </div>
+
+                <!-- #col 2# -->
+                <div class="col-md-6 col-lg-3 mb-5">
+                    <h4 class="text-uppercase text-white mb-3">Nawigacja</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="d-footer-top-text text-primary" href="#">Regulamin serwisu</a>
+                        </li>
+                        <li>
+                            <a class="d-footer-top-text" href="#">Logowanie na konto</a>
+                        </li>
+                        <li>
+                            <a class="d-footer-top-text" href="#">Wsparcie techniczne</a>
+                        </li>
+                        <li>
+                            <a class="d-footer-top-text" href="#">FQA & Pomoc</a>
+                        </li>
+                        <li>
+                            <a class="d-footer-top-text" href="#">Kariera w naszej firmie</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- #col 3# -->
+                <div class="col-md-6 col-lg-3 mb-5">
+                    <h4 class="text-uppercase text-white mb-3">Kontakt</h4>
+                    <ul class=" list-unstyled d-footer-top-contact">
+                        <li class="d-footer-top-contact-item">
+                            <img class="mr-1" src="./images/ui/contact-footer-icon-pin.png" alt="">
+                            <a class="d-footer-top-text" href="#">ul.Krakowska 65B </a>                              
+                        </li>
+                        <li class="d-footer-top-contact-item">
+                            <img class="mr-1" src="./images/ui/contact-footer-icon-phone.png" alt="">
+                            <a class="d-footer-top-text" href="#">555-444-333</a>
+                        </li>
+                        <li class="d-footer-top-contact-item">
+                            <img class="mr-1" src="./images/ui/contact-footer-icon-email.png" alt="">
+                            <a class="d-footer-top-text" href="#">KamilD@gmail.com</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex  w-75 justify-content-between">
+                        <span class="bg-primary text-center d-social-box">
+                            <a href="#">
+                                <img src="./images/social/social-icon-fb.png" alt="facebook">
+                            </a>
+                        </span>
+                        <span class="bg-primary text-center d-social-box">
+                            <a href="#">
+                                <img src="./images/social/social-icon-inst.png" alt="instagram">
+                            </a>
+                        </span>
+                        <span class="bg-primary text-center d-social-box">
+                            <a href="#">
+                                <img src="./images/social/social-icon-pin.png" alt="pinterest">
+                            </a>
+                        </span>
+                        <span class="bg-primary text-center d-social-box">
+                            <a href="#">
+                                <img src="./images/social/social-icon-plus.png" alt="Google+">
+                            </a>
+                        </span>
+                        <span class="bg-primary text-center d-social-box">
+                            <a href="#">
+                                <img src="./images/social/social-icon-twit.png" alt="twetter">
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- #col 4# -->
+                <div class="col-md-6 col-lg-3 mb-5">
+                    <h4 class="text-uppercase text-white mb-3">Newsletter</h4>
+                    <form action="#">
+                        <div class="form-group d-newsletter-form-group">
+                            <label class="d-footer-top-text" for="email">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias architecto blanditiis dolores excepturi impedit nulla officia quaerat recusandae voluptate?</label>
+                            <input class="form-control form-control-sm w-75 d-newslettet-form-control" type="email" id="email" placeholder="Adres email">
+                        </div>
+                        <button class="btn btn-primary text-white text-uppercase d-newsletter-btn" type="button">Subskrybuj</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer copyright -->
+    <div class="d-copy">
+        <div class="container text-center">
+            <span class="d-block"> &copy; Copyright 2018 NAZWA FIRMY Wszelkie prawa zastrzeżone</span>
+            <span class="d-block d-copy-second">Desing by ...........</span>
+        </div>
+    </div>
+</body>
+</html>

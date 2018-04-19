@@ -1,0 +1,10 @@
+.d-hr {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: darken($gray-200, 5%);
+}
+
+.d-alternate-bg{
+  background-color: $d-gray-100;
+}

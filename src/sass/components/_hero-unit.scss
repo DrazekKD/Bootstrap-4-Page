@@ -1,0 +1,27 @@
+@import "../base/variables";
+.d-hero{
+  position: relative;
+  margin-bottom: 0;
+  background: url("./../images/bg/top-bg.jpg") 50% 50% no-repeat;
+  background-size: cover ;
+
+  &:after{
+    @include d-bg-overlay($d-black, .4);
+  }
+}
+.d-hero-content{
+  @include d-relative-zindex;
+}
+.d-hero-header{
+  margin-bottom: .85rem;
+  letter-spacing: .55rem;
+  text-shadow: 0 2px 0 rgba($d-gray-900,1);
+
+  @include media-breakpoint-up(md){
+    font-size: 3.06rem;
+  }
+}
+.d-hero-img{
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 2px rgba($d-gray-900,1));
+}

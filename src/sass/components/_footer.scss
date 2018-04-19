@@ -1,0 +1,53 @@
+.d-footer-top{
+  position: relative;
+  padding: 80px 0 20px;
+  background: url("../../images/bg/footer-bg.jpg") 50% 50% no-repeat;
+  background-size: cover;
+
+  &:after{
+    @include d-bg-overlay($d-black, .75);
+  }
+}
+
+.d-footer-top-content{
+  @include d-relative-zindex;
+}
+
+.d-footer-top-text{
+  color: $d-gray-600;
+  font-size: .75rem;
+}
+
+.d-footer-top-p{
+  line-height: 2;
+}
+
+.d-social-box{
+  @include d-size(26px,26px)
+}
+
+//newsleter col
+.d-newsletter-form-group{
+  margin-bottom: .75rem;
+}
+
+.d-newslettet-form-control{
+  height: 1.55rem;
+  font-size: .75rem;
+}
+
+.d-newsletter-btn{
+  padding: .25rem 1rem;
+  font-size: .625rem;
+}
+
+//Copyright
+.d-copy{
+  padding: 1rem 0;
+  font-size: .635rem;
+}
+
+.d-copy-second{
+  margin-left: .25rem;
+  font-size: .5625rem;
+}

@@ -1,0 +1,54 @@
+.d-portfolio-box{
+  position: relative;
+}
+
+.d-portfolio-box-text{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 65%;
+  margin: 0 auto;
+  z-index: 1000;
+  transform: translateY(-50%) ;
+}
+
+.d-portfolio-box-title{
+  margin-bottom: 1.2rem;
+  font-size: 1.55rem;
+  letter-spacing: .2rem;
+}
+
+.d-portfolio-box-img{
+  max-width: 740px;
+}
+
+.d-portfolio-box.fatured{
+  max-width: 740px;
+}
+
+.d-portfolio-box-img-overlay{
+  &:after{
+    @include d-bg-overlay($d-accent-color,.8)
+  }
+}
+
+//portfolio item
+.d-portfolio-item{
+  position: relative;
+  margin-bottom: 1.875rem;
+
+  .d-hr{
+    margin: 1rem 0;
+   }
+}
+
+.d-portfolio-item-info{
+  @include d-font-light-secondary;
+}
+
+.d-portfolio-box-header{
+  font-style: 1.125rem;
+  letter-spacing: .2rem;
+}
+

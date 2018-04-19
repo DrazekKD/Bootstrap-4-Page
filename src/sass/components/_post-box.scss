@@ -1,0 +1,71 @@
+.d-post-box{
+  position: relative;
+}
+
+.d-post-box-date{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  @include d-size(75px, 75px);
+  @include media-breakpoint-up(md){
+    @include d-size(95px, 95px);
+  }
+}
+
+.d-post-box-date-body{
+  max-width: 90%;
+  @include media-breakpoint-up(md){
+    max-width: 40%;
+  }
+}
+
+.d-post-box-date-value{
+  margin-top: .3rem;
+  font-size: .625rem;
+  @include d-font-light-secondary;
+}
+
+.d-post-box-body{
+  position: relative;
+  padding: 10px 0 0 10px;
+  max-width: 530px;
+}
+
+.d-post-box-content{
+  position: absolute;
+  top:30%;
+  right: 0;
+  bottom: 0;
+  left: 10px;
+  padding: 20px 30px;
+  max-width: 530px;
+
+  &:after {
+    @include d-bg-overlay($d-black, .6)
+  }
+
+  @include media-breakpoint-up(md){
+    top:50%;
+  }
+}
+
+.d-post-box-content-inner{
+  @include d-relative-zindex;
+}
+
+.d-post-box-title{
+  font-size: 1.375rem;
+  margin-bottom: .85rem;
+}
+
+.d-post-box-text{
+  margin-bottom: .3rem;
+  font-size: .6rem;
+  line-height: 1.66;
+}
+
+.d-post-box-link {
+  @include d-font-light-secondary;
+  font-size: .725rem;
+}

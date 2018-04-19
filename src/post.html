@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap 4 Shop</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald&amp;subset=latin-ext" rel="stylesheet">
+     <!--Usuń na końcu--><link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/style.css" >
+</head>
+<body>
+    <!-- Header -->
+    <section class="bg-primary d-header">
+        <div class="container">
+            <ul class="nav flex-column flex-md-row justify-content-lg-end text-uppercase">
+                <li class="nav-item">
+                    <a class="nav-link text-white d-header-item-link" href="index.html">Strona główna </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white d-header-item-link" href="portfolio.html">Realizacje</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white d-header-item-link" href="portfolio.html">Usługi</a>
+                </li>
+                <li class="nav-item d-header-active">
+                    <a class="nav-link  d-header-item-link" href="post-list.html">Aktualności</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white d-header-item-link" href="shop.html">Sklep</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white d-header-item-link" href="about.html">O nas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white d-header-item-link" href="contact.html">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white d-header-item-link" href="#">
+                        <img src="images/ui/icon-top-search.png" alt="szukaj">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white d-header-item-link" href="#">
+                        <img src="images/ui/icon-top-cart.png" alt="koszyk">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Hero init -->
+    <section class="jumbotron text-center d-hero">
+        <div class="container d-hero-content">
+            <h1 class="text-white d-hero-header text-uppercase">Arhitektura wnętrz</h1>
+            <img class="img-fluid d-hero-img" src="images/design-subheader.png" alt="">
+        </div>
+
+    </section>
+
+    <!-- Blog list -->
+    <section class="d-post-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="d-post-item">
+                        <div class="d-post-box">
+                            <div class="text-center bg-primary d-flex align-items-center  d-post-box-date">
+                                <div class="mx-auto d-post-box-date-body">
+                                    <img class="d-none d-md-block mx-auto" src="./images/ui/date-icon.png" alt="">
+                                    <spnan class="text-white d-block d-post-box-date-value">23 WRZ 2018</spnan>
+                                </div>
+                            </div>
+                            <div class="d-post-box-body">
+                                <div class="d-post-box-img">
+                                    <img class="img-fluid" src="./images/posts/post-2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <a class="d-block d-post-item-link" href="post.html">
+                            <h2 class="text-uppercase d-post-item-title">Lorem ipsum.</h2>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur, deleniti facere fugit libero maiores minus nam necessitatibus quam quasi rem tempora vitae. Ab ad amet animi asperiores earum eligendi, eveniet fugit ipsa iure maxime minima molestias, natus neque porro sequi temporibus voluptas voluptatibus! Beatae cum facilis ipsum iure iusto laboriosam laborum, mollitia necessitatibus nihil, perspiciatis reprehenderit velit. Deserunt eveniet maxime pariatur rerum. Itaque, iure laudantium nulla omnis quia voluptates!</p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur, deleniti facere fugit libero maiores minus nam necessitatibus quam quasi rem tempora vitae. Ab ad amet animi asperiores earum eligendi, eveniet fugit ipsa iure maxime minima molestias, natus neque porro sequi temporibus voluptas voluptatibus! Beatae cum facilis ipsum iure iusto laboriosam laborum, mollitia necessitatibus nihil, perspiciatis reprehenderit velit. Deserunt eveniet maxime pariatur rerum. Itaque, iure laudantium nulla omnis quia voluptates!</p>
+                    <div class="d-hr"></div>
+                    <!--komentarze-->
+                    <div class="d-comments">
+                        <h4 class="d-comments-header">Komentarze (2)</h4>
+                        <div class="media d-comments">
+                            <div class="d-flex align-items-center justify-content-center text-center bg-primary  d-comment-avatar">
+                                <img src="./images/ui/user-avatar.png" alt="">
+                            </div>
+                            <div class="media-body d-text-small">
+                                <div class="d-comment-meta">
+                                    <span class="d-comment-username">Kamil Kowalski</span>
+                                    <br>
+                                    <span class="d-comment-date">25 kwiecieć 2018 | 20:12</span>
+                                </div>
+                                <div class="d-flex align-items-start  d-comment-content">
+                                    <p class="d-comment-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ipsa quia quibusdam sed totam? Iste iusto quaerat voluptate! A adipisci, commodi consectetur dignissimos eligendi exercitationem facere maxime minima modi officiis quaerat quam quidem quo repudiandae rerum sed temporibus veniam veritatis?</p>
+                                    <img class="align-self-center" src="./images/ui/reply-arrow.png" alt="">
+                                </div>
+
+                                <!--Zagniezdzony komentarz-->
+                                <div class="media d-comments">
+                                    <div class="d-flex align-items-center justify-content-center text-center bg-primary  d-comment-avatar">
+                                        <img src="./images/ui/user-avatar.png" alt="">
+                                    </div>
+                                    <div class="media-body d-text-small">
+                                        <div class="d-comment-meta">
+                                            <span class="d-comment-username">Jan Ozdoba</span>
+                                            <br>
+                                            <span class="d-comment-date">25 kwiecieć 2018 | 24:12</span>
+                                        </div>
+                                        <div class="d-flex align-items-start  d-comment-content">
+                                            <p class="d-comment-text">Lorem ligendi exercitationem facere maxime minima modi officiis quaerat quam quidem quo repudiandae rerum sed temporibus veniam veritatis?</p>
+                                            <img class="align-self-center" src="./images/ui/reply-arrow.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-hr"></div>
+
+                    <!-- Formularz komentarzy-->
+                    <div class="d-comments-form">
+                        <form class="d-form" action="#">
+                            <div class="row">
+                                <div class="form-group col-md-4">
+                                    <label for="name">Twoje imie</label> 
+                                    <input class="form-control d-comments-form-control" type="text" id="name">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="email">Adres Email</label>
+                                    <input class="form-control d-comments-form-control" type="email" id="email">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="url">Twoja strona</label>
+                                    <input class="form-control d-comments-form-control" type="url" id="url">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col form-group">
+                                    <label for="comment">Twój komentarz</label>
+                                    <textarea class="form-control d-comments-form-control" id="comment" cols="30" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-lg text-white d-comments-form-btn" type="button">Wyślij komentarz</button>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                <!--szukja-->
+                    <div class="d-post-widget">
+                        <div class="input-group d-post-widget-search">
+                            <input  class="form-control d-post-widget-search-input" type="search" placeholder="SZUKAJ">
+                            <span class="input-group-addon">
+                                <img src="./images/ui/icon-top-search.png" alt="szukaj wspisu">
+                            </span>
+                        </div>
+                    </div>
+
+                <!--archiwum-->
+                    <div class="d-post-widget">
+                        <h4 class="text-uppercase d-post-widget-heder">Archiwum</h4>
+                        <div class="w-75 d-hr"></div>
+                        <div class="d-post-widget-archive">
+                           <h5 class="d-post-archivr-header">2016</h5>
+                           <h5 class="d-post-archivr-header">2017</h5>
+                           <ul class="list-unstyled d-post-widget-archive-list">
+                             <li class="d-post-widget-list-item">
+                                <a class="d-post-widget-link" href="#">Styczeń <span class="float-right">(10)</span></a>
+                             </li>
+                             <li class="d-post-widget-list-item">
+                                <a class="d-post-widget-link" href="#">Luty <span class="float-right">(21)</span></a>
+                             </li>
+                             <li class="d-post-widget-list-item">
+                                <a class="d-post-widget-link" href="#">Marzec <span class="float-right">(100)</span></a>
+                             </li>
+                             <li class="d-post-widget-list-item">
+                                 <a class="d-post-widget-link" href="#">Kwiecień <span class="float-right">(27)</span></a>
+                             </li>
+                             <li class="d-post-widget-list-item">
+                                <a class="d-post-widget-link" href="#">Kwiecien <span class="float-right">(11)</span></a>
+                             </li>
+                             <li class="d-post-widget-list-item">
+                                <a class="d-post-widget-link" href="#">Ma <span class="float-right">(61)</span></a>
+                             </li>
+                             <li class="d-post-widget-list-item">
+                                <a class="d-post-widget-link" href="#">Czerwiec <span class="float-right">(70)</span></a>
+                             </li>
+                             <li class="d-post-widget-list-item">
+                                 <a class="d-post-widget-link" href="#">lipiec <span class="float-right">(29)</span></a>
+                             </li>
+                           </ul>
+                        </div>
+                    </div>
+
+                <!-- popularne wpisy -->
+                    <div class="d-post-widget">
+                    <h4 class="text-uppercase d-post-widget-heder">Popularne wpisy</h4>
+                    <div class="w-75 d-hr"></div>
+                    <div class="d-post-widget-popular">
+                        <div class="media d-post-widget-popular-item">
+                            <img class="d-post-widget-popular-img" src="./images/posts/post-mini-1.png" alt="#">
+                            <div class="media-body">
+                                <a class="mt-1 d-inline-block d-post-widget-link" href="#">Lorem ipsum dolor sit amet, consectetur.</a>
+                            </div>
+                        </div>
+                        <div class="media d-post-widget-popular-item">
+                            <img class="d-post-widget-popular-img" src="./images/posts/post-mini-2.png" alt="#">
+                            <div class="media-body">
+                                <a class="mt-1 d-inline-block d-post-widget-link" href="#">Lorem ipsum dolor sit amet, consectetur.</a>
+                            </div>
+                        </div>
+                        <div class="media mb-2 d-post-widget-popular-item">
+                            <img class="d-post-widget-popular-img" src="./images/posts/post-mini-3.png" alt="#">
+                            <div class="media-body">
+                                <a class="mt-1 d-inline-block d-post-widget-link" href="#">Lorem ipsum dolor sit amet, consectetur.</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--kategorie-->
+                    <div class="d-post-widget">
+                        <h4 class="text-uppercase d-post-widget-heder">Kategorie</h4>
+                        <div class="w-75 d-hr"></div>
+                        <div class="d-flex flex-wrap justify-content-left d-post-widget-categories ">
+                            <a class=" bg-primary text-white d-post-widget-link d-post-widget-categories-item" href="#">architektura</a>
+                            <a class="text-white d-post-widget-link d-post-widget-categories-item" href="#">projektowanie</a>
+                            <a class="text-white d-post-widget-link d-post-widget-categories-item" href="#">zieleń</a>
+                            <a class="text-white d-post-widget-link d-post-widget-categories-item" href="#">dokumentacja</a>
+                            <a class="text-white d-post-widget-link d-post-widget-categories-item" href="#">domy</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="d-footer-top">
+            <div class="container d-footer-top-content">
+                <div class="row">
+                    <!-- #col 1# -->
+                    <div class="col-md-6 col-lg-3 mb-5">
+                        <h4 class="text-uppercase text-white mb-3">O nas</h4>
+                        <p class="d-footer-top-text d-footer-top-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, debitis enim expedita mollitia quos repellat repellendus sapiente suscipit tempore temporibus! Ducimus exercitationem fugit molestias officiis possimus quasi. Dolorem hic, possimus?</p>
+                    </div>
+
+                    <!-- #col 2# -->
+                    <div class="col-md-6 col-lg-3 mb-5">
+                        <h4 class="text-uppercase text-white mb-3">Nawigacja</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="d-footer-top-text text-primary" href="#">Regulamin serwisu</a>
+                            </li>
+                            <li>
+                                <a class="d-footer-top-text" href="#">Logowanie na konto</a>
+                            </li>
+                            <li>
+                                <a class="d-footer-top-text" href="#">Wsparcie techniczne</a>
+                            </li>
+                            <li>
+                                <a class="d-footer-top-text" href="#">FQA & Pomoc</a>
+                            </li>
+                            <li>
+                                <a class="d-footer-top-text" href="#">Kariera w naszej firmie</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <!-- #col 3# -->
+                    <div class="col-md-6 col-lg-3 mb-5">
+                        <h4 class="text-uppercase text-white mb-3">Kontakt</h4>
+                        <ul class=" list-unstyled d-footer-top-contact">
+                            <li class="d-footer-top-contact-item">
+                                <img class="mr-1" src="./images/ui/contact-footer-icon-pin.png" alt="">
+                                <a class="d-footer-top-text" href="#">ul.Krakowska 65B </a>
+                            </li>
+                            <li class="d-footer-top-contact-item">
+                                <img class="mr-1" src="./images/ui/contact-footer-icon-phone.png" alt="">
+                                <a class="d-footer-top-text" href="#">555-444-333</a>
+                            </li>
+                            <li class="d-footer-top-contact-item">
+                                <img class="mr-1" src="./images/ui/contact-footer-icon-email.png" alt="">
+                                <a class="d-footer-top-text" href="#">KamilD@gmail.com</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex  w-75 justify-content-between">
+                            <span class="bg-primary text-center d-social-box">
+                                <a href="#">
+                                    <img src="./images/social/social-icon-fb.png" alt="facebook">
+                                </a>
+                            </span>
+                            <span class="bg-primary text-center d-social-box">
+                                <a href="#">
+                                    <img src="./images/social/social-icon-inst.png" alt="instagram">
+                                </a>
+                            </span>
+                            <span class="bg-primary text-center d-social-box">
+                                <a href="#">
+                                    <img src="./images/social/social-icon-pin.png" alt="pinterest">
+                                </a>
+                            </span>
+                            <span class="bg-primary text-center d-social-box">
+                                <a href="#">
+                                    <img src="./images/social/social-icon-plus.png" alt="Google+">
+                                </a>
+                            </span>
+                            <span class="bg-primary text-center d-social-box">
+                                <a href="#">
+                                    <img src="./images/social/social-icon-twit.png" alt="twetter">
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- #col 4# -->
+                    <div class="col-md-6 col-lg-3 mb-5">
+                        <h4 class="text-uppercase text-white mb-3">Newsletter</h4>
+                        <form action="#">
+                            <div class="form-group d-newsletter-form-group">
+                                <label class="d-footer-top-text" for="email">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias architecto blanditiis dolores excepturi impedit nulla officia quaerat recusandae voluptate?</label>
+                                <input class="form-control form-control-sm w-75 d-newslettet-form-control" type="email" id="email" placeholder="Adres email">
+                            </div>
+                            <button class="btn btn-primary text-white text-uppercase d-newsletter-btn" type="button">Subskrybuj</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer copyright -->
+        <div class="d-copy">
+            <div class="container text-center">
+                <span class="d-block"> &copy; Copyright 2018 NAZWA FIRMY Wszelkie prawa zastrzeżone</span>
+                <span class="d-block d-copy-second">Desing by ...........</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+.d-post-widget{
+  margin-bottom: 30px;
+  padding: 1rem 2rem;
+  background-color: $gray-200;
+}
+
+.d-post-widget-heder{
+  margin-top: 1rem;
+  letter-spacing: .1rem;
+}
+
+.d-post-widget-list-item{
+  padding-left: 1.25rem;
+  padding-right: 2.5rem;
+}
+
+.d-post-widget-link{
+  color: $gray-900;
+  font-size: 0.875rem;
+  @include d-font-light-secondary;
+}
+
+//widget search
+.d-post-widget-search{
+  padding: 0 .75rem;
+}
+
+.d-post-widget-search-input{
+  font-family: $d-font-family-secondary;
+  font-weight: 400;
+  font-size: 0.875rem;
+  letter-spacing: .2rem;
+
+  &::-webkit-input-placeholder{
+    color: $gray-200;
+  }
+}
+
+//widget archiwum
+.d-post-widget-archive{
+  padding: 1rem 0 0;
+}
+
+.d-post-widget-archive-list{
+  margin-bottom: .5rem;
+}
+
+.d-post-archivr-header{
+  margin-bottom: .75rem;
+}
+
+//popularne wpisy
+.d-post-widget-popular-item{
+  margin: 1.2rem 0;
+}
+
+.d-post-widget-popular-img{
+  margin-right: 2.5rem;
+}
+
+//kategorie
+.d-post-widget-categories{
+  padding: 2rem 0 .8rem;
+}
+
+.d-post-widget-categories-item{
+  margin-bottom: .175rem;
+  margin-right: .15rem;
+  padding: .4rem 1rem;
+  line-height: 1;
+  background-color: $d-black;
+}

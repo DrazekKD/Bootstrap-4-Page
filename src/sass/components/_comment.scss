@@ -1,0 +1,35 @@
+.d-comments{
+  padding:45px 0 25px;
+}
+
+.d-comment{
+  padding-top: .75rem;
+}
+
+.d-comment-avatar{
+  margin-right: 1rem;
+  border-radius: 24px;
+  @include d-size(48px, 48px);
+}
+
+.d-comment-meta{
+  margin: .25rem 0;
+}
+
+.d-comment-username{
+  font-family: $font-family-sans-serif;
+  font-weight: 700;
+  letter-spacing: .075rem;
+}
+
+.d-comment-date{
+  font-family: $font-family-sans-serif;
+  font-size: .75rem;
+  letter-spacing: .1rem;
+}
+
+.d-comment-text{
+  margin-right: 4rem;
+  font-size: .75rem;
+  line-height: 2;
+}
