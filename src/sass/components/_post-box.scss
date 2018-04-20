@@ -29,7 +29,6 @@
 .d-post-box-body{
   position: relative;
   padding: 10px 0 0 10px;
-  max-width: 530px;
 }
 
 .d-post-box-content{
@@ -39,7 +38,6 @@
   bottom: 0;
   left: 10px;
   padding: 20px 30px;
-  max-width: 530px;
 
   &:after {
     @include d-bg-overlay($d-black, .6)
@@ -47,6 +45,11 @@
 
   @include media-breakpoint-up(md){
     top:50%;
+    width: 77%;
+  }
+  @include media-breakpoint-up(lg){
+    top:50%;
+    width: 88%;
   }
 }
 

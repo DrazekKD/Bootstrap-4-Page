@@ -1,4 +1,7 @@
 @import "../base/variables";
+.jumbotron{
+  padding: 14rem 0;
+}
 .d-hero{
   position: relative;
   margin-bottom: 0;
@@ -16,7 +19,7 @@
   margin-bottom: .85rem;
   letter-spacing: .55rem;
   text-shadow: 0 2px 0 rgba($d-gray-900,1);
-
+  font-size: 1.5rem;
   @include media-breakpoint-up(md){
     font-size: 3.06rem;
   }
